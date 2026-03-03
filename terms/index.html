@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service — Rock Paper PvP</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Lora', Georgia, serif;
+            background-color: #1a1710;
+            color: #d4c8a8;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        /* Parchment texture overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(139, 119, 75, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(139, 119, 75, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid rgba(212, 200, 168, 0.15);
+        }
+
+        .header a {
+            color: #b8a472;
+            text-decoration: none;
+            font-family: 'Cinzel', serif;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        .header a:hover {
+            color: #d4c8a8;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #e8dcc0;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        .effective-date {
+            font-size: 14px;
+            color: rgba(212, 200, 168, 0.5);
+            font-style: italic;
+        }
+
+        /* Sections */
+        h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #c9b87a;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-top: 40px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 16px;
+            color: #bfb48f;
+        }
+
+        strong {
+            color: #d4c8a8;
+            font-weight: 600;
+        }
+
+        a {
+            color: #c9b87a;
+            text-decoration: underline;
+            text-decoration-color: rgba(201, 184, 122, 0.3);
+            text-underline-offset: 3px;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: #e8dcc0;
+            text-decoration-color: rgba(232, 220, 192, 0.5);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 64px;
+            padding-top: 32px;
+            border-top: 1px solid rgba(212, 200, 168, 0.15);
+            text-align: center;
+            font-size: 13px;
+            color: rgba(212, 200, 168, 0.35);
+        }
+
+        .footer-links {
+            margin-bottom: 16px;
+        }
+
+        .footer-links a {
+            color: rgba(212, 200, 168, 0.45);
+            text-decoration: none;
+            margin: 0 12px;
+            font-family: 'Cinzel', serif;
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #c9b87a;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container { padding: 32px 18px 60px; }
+            h1 { font-size: 26px; letter-spacing: 2px; }
+            h2 { font-size: 16px; }
+            p { font-size: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <a href="/">← Rock Paper PvP</a>
+            <h1>Terms of Service</h1>
+            <p class="effective-date">Effective Date: March 3, 2026</p>
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or playing Rock Paper PvP ("the Game"), you agree to these Terms of Service. The Game is published by <strong>Pizza Robot Studios LLC</strong>. If you do not agree to these terms, please do not use the Game.</p>
+
+        <h2>2. The Game</h2>
+        <p>Rock Paper PvP is a casual mobile game available on iOS and Android. The Game is provided for entertainment purposes. We reserve the right to update, modify, or discontinue any aspect of the Game at any time without prior notice.</p>
+
+        <h2>3. Eligibility</h2>
+        <p>The Game is intended for players of all ages. No account creation is required. No personal information such as email, name, or login credentials is collected by the Game.</p>
+
+        <h2>4. In-App Purchases</h2>
+        <p>The Game offers an optional one-time purchase ("Premium Upgrade") that removes advertisements and provides cosmetic enhancements. All purchases are processed through the Apple App Store or Google Play Store and are subject to their respective terms and refund policies. Purchases are non-consumable and can be restored on the same platform using the "Restore Purchases" option in Settings.</p>
+
+        <h2>5. Advertisements</h2>
+        <p>The free version of the Game displays advertisements provided by third-party ad networks, including Google AdMob. These ads may use device identifiers and usage data to serve relevant content. You may remove all advertisements by purchasing the Premium Upgrade. For details on data collected by ad services, please see our <a href="/privacy/">Privacy Policy</a>.</p>
+
+        <h2>6. Analytics and Crash Reporting</h2>
+        <p>We use Firebase Analytics and Firebase Crashlytics to collect anonymous usage data and crash reports. This helps us improve the Game's performance and stability. No personally identifiable information is collected through these services. See our <a href="/privacy/">Privacy Policy</a> for more details.</p>
+
+        <h2>7. User Conduct</h2>
+        <p>Player-chosen names are stored locally on your device and are not transmitted to our servers. We reserve the right to implement content moderation in future multiplayer updates. Please choose names that are appropriate and respectful.</p>
+
+        <h2>8. Intellectual Property</h2>
+        <p>All content in the Game — including artwork, characters, logos, sound effects, and game design — is the property of Pizza Robot Studios LLC. You may not copy, distribute, modify, or create derivative works from any Game content without written permission.</p>
+
+        <h2>9. Disclaimer of Warranties</h2>
+        <p>The Game is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not guarantee that the Game will be uninterrupted, error-free, or free of harmful components.</p>
+
+        <h2>10. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by law, Pizza Robot Studios LLC shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Game, including but not limited to loss of data or interruption of service.</p>
+
+        <h2>11. Changes to These Terms</h2>
+        <p>We may update these Terms of Service from time to time. Changes will be reflected on this page with an updated effective date. Continued use of the Game after changes are posted constitutes acceptance of the revised terms.</p>
+
+        <h2>12. Contact Us</h2>
+        <p>If you have questions about these Terms of Service, please contact us:</p>
+        <p>
+            <strong>Pizza Robot Studios LLC</strong><br>
+            Email: <a href="mailto:support@rockpaperpvp.com">support@rockpaperpvp.com</a><br>
+            Website: <a href="https://rockpaperpvp.com">rockpaperpvp.com</a>
+        </p>
+
+        <div class="footer">
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/privacy/">Privacy</a>
+                <a href="/terms/">Terms</a>
+                <a href="mailto:support@rockpaperpvp.com">Support</a>
+            </div>
+            <p>&copy; 2026 Pizza Robot Studios LLC. All rights reserved.</p>
+        </div>
+
+    </div>
+</body>
+</html>
