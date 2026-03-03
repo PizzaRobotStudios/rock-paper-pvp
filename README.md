@@ -1,19 +1,14 @@
 # Rock Paper PvP
 
-Rock Paper PvP is a fast, simple, competitive game experience focused on quick matches.
+A fast, competitive rock-paper-scissors PvP game.
 
-## 🌐 Live Site
-https://pizzarobotstudios.github.io/rock-paper-pvp/
+## Live Site
+https://rockpaperpvp.com
 
-## 📄 Privacy Policy
-https://pizzarobotstudios.github.io/rock-paper-pvp/privacy/
+## Stack
+- Static HTML
+- Hosted via GitHub Pages
+- Custom domain via GoDaddy
 
-## About
-
-This repository contains the public landing page and privacy policy for the Rock Paper PvP project.
-
-Built with simple static HTML for reliability and performance.
-
----
-
-© PizzaRobotStudios
+## Status
+Early development.
