@@ -33,7 +33,6 @@
             overflow-x: hidden;
         }
 
-        /* Subtle ambient light */
         body::before {
             content: '';
             position: fixed;
@@ -47,7 +46,6 @@
 
         .page { position: relative; z-index: 1; }
 
-        /* ===== HERO ===== */
         .hero {
             text-align: center;
             padding: 60px 24px 40px;
@@ -93,7 +91,6 @@
             line-height: 1.8;
         }
 
-        /* Coming Soon Badge */
         .coming-soon {
             display: inline-block;
             font-family: 'Cinzel', serif;
@@ -116,7 +113,6 @@
             margin-top: 8px;
         }
 
-        /* ===== DIVIDER ===== */
         .divider {
             width: 60px;
             height: 1px;
@@ -124,7 +120,6 @@
             margin: 48px auto;
         }
 
-        /* ===== TRAILER ===== */
         .trailer-section {
             text-align: center;
             padding: 0 24px 20px;
@@ -162,7 +157,6 @@
             border: 0;
         }
 
-        /* ===== SCREENSHOT ===== */
         .screenshot-section {
             text-align: center;
             padding: 0 24px 20px;
@@ -196,7 +190,6 @@
             display: block;
         }
 
-        /* ===== FEATURES ===== */
         .features {
             max-width: 600px;
             margin: 0 auto;
@@ -228,10 +221,7 @@
             background: rgba(212, 200, 168, 0.02);
         }
 
-        .feature-item .icon {
-            font-size: 24px;
-            margin-bottom: 8px;
-        }
+        .feature-item .icon { font-size: 24px; margin-bottom: 8px; }
 
         .feature-item h3 {
             font-family: 'Cinzel', serif;
@@ -249,7 +239,6 @@
             line-height: 1.6;
         }
 
-        /* ===== CONTACT ===== */
         .contact {
             text-align: center;
             padding: 0 24px 20px;
@@ -267,11 +256,7 @@
             margin-bottom: 16px;
         }
 
-        .contact p {
-            font-size: 16px;
-            color: #bfb48f;
-            margin-bottom: 20px;
-        }
+        .contact p { font-size: 16px; color: #bfb48f; margin-bottom: 20px; }
 
         .contact-email {
             display: inline-block;
@@ -292,7 +277,6 @@
             color: #e8dcc0;
         }
 
-        /* ===== FOOTER ===== */
         .footer {
             margin-top: 48px;
             padding: 32px 24px 40px;
@@ -300,9 +284,7 @@
             text-align: center;
         }
 
-        .footer-links {
-            margin-bottom: 20px;
-        }
+        .footer-links { margin-bottom: 20px; }
 
         .footer-links a {
             color: rgba(212, 200, 168, 0.45);
@@ -315,22 +297,11 @@
             transition: color 0.3s ease;
         }
 
-        .footer-links a:hover {
-            color: #c9b87a;
-        }
+        .footer-links a:hover { color: #c9b87a; }
 
-        .footer-studio {
-            font-size: 13px;
-            color: rgba(212, 200, 168, 0.25);
-            margin-bottom: 4px;
-        }
+        .footer-studio { font-size: 13px; color: rgba(212, 200, 168, 0.25); margin-bottom: 4px; }
+        .footer-copy { font-size: 12px; color: rgba(212, 200, 168, 0.18); }
 
-        .footer-copy {
-            font-size: 12px;
-            color: rgba(212, 200, 168, 0.18);
-        }
-
-        /* ===== RESPONSIVE ===== */
         @media (max-width: 600px) {
             .hero { padding: 40px 18px 32px; }
             .hero h1 { font-size: 32px; letter-spacing: 2px; }
@@ -361,6 +332,16 @@
 
         <div class="divider"></div>
 
+        <!-- SCREENSHOT (above trailer) -->
+        <section class="screenshot-section">
+            <h2>Meet the Fighters</h2>
+            <div class="screenshot-frame">
+                <img src="assets/screenshot-intro.png" alt="Rock Paper PvP gameplay screenshot showing the title screen with character faces">
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
         <!-- TRAILER -->
         <section class="trailer-section">
             <h2>Watch the Trailer</h2>
@@ -376,16 +357,6 @@
 
         <div class="divider"></div>
 
-        <!-- SCREENSHOT -->
-        <section class="screenshot-section">
-            <h2>Meet the Fighters</h2>
-            <div class="screenshot-frame">
-                <img src="assets/screenshot-intro.png" alt="Rock Paper PvP gameplay screenshot showing the title screen with character faces">
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
         <!-- FEATURES -->
         <section class="features">
             <h2>How It Works</h2>
@@ -393,7 +364,7 @@
                 <div class="feature-item">
                     <div class="icon">&#9876;</div>
                     <h3>Pick &amp; Fight</h3>
-                    <p>Choose rock, paper, or scissors. Best of 3 rounds. Every fight is a story.</p>
+                    <p>Choose rock, paper, or scissors. Best of 3 rounds.</p>
                 </div>
                 <div class="feature-item">
                     <div class="icon">&#9733;</div>
@@ -403,7 +374,7 @@
                 <div class="feature-item">
                     <div class="icon">&#9889;</div>
                     <h3>Quick Sessions</h3>
-                    <p>Fights take 20 seconds. Perfect for a quick break or an hour-long grind.</p>
+                    <p>Fights take 20 seconds. Perfect for a quick break or a grind.</p>
                 </div>
                 <div class="feature-item">
                     <div class="icon">&#127942;</div>
@@ -428,5 +399,13 @@
                 <a href="/press/">Press</a>
                 <a href="/privacy/">Privacy</a>
                 <a href="/terms/">Terms</a>
-                <a href="/cdn-cgi/l/email-protection#a1d2d4d1d1ced3d5e1d3cec2cad1c0d1c4d3d1d7d18fc2cecc">Support</a>
-                <a href="/cdn-cgi/l/email-protection#0e686b6b6a6c6f6d654e7c616d657e6f7e6b7c7e787e206d616
+                <a href="mailto:support@rockpaperpvp.com">Support</a>
+                <a href="mailto:feedback@rockpaperpvp.com">Feedback</a>
+            </div>
+            <div class="footer-studio">Pizza Robot Studios LLC</div>
+            <div class="footer-copy">&copy; 2026 All rights reserved.</div>
+        </footer>
+
+    </div>
+</body>
+</html>
